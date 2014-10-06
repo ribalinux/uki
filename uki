@@ -6,7 +6,7 @@
 echo "-----------------------------------------------------------------------"
 echo "------------ Script edited and tested by Marcelo Salvador ------------ "
 echo "http://ribalinux.blogspot.pt/ https://www.youtube.com/user/TheRibalinux"
-echo "$(tput setaf 3)--- Kernel 3.16.0 will be installed in an `uname -i` system    ---$(tput sgr0)"
+echo "$(tput setaf 3)--- Kernel 3.17.0 will be installed in an `uname -i` system    ---$(tput sgr0)"
 echo "-----------------------------------------------------------------------"
 
 echo ""
@@ -20,17 +20,17 @@ echo ""
 
 #i386 links
 
-link1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.16-utopic/linux-headers-3.16.0-031600_3.16.0-031600.201408031935_all.deb"
+link1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.17-utopic/linux-headers-3.17.0-031700_3.17.0-031700.201410051635_all.deb"
 
-link2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.16-utopic/linux-headers-3.16.0-031600-generic_3.16.0-031600.201408031935_i386.deb"
+link2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.17-utopic/linux-headers-3.17.0-031700-generic_3.17.0-031700.201410051635_i386.deb"
 
-link3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.16-utopic/linux-image-3.16.0-031600-generic_3.16.0-031600.201408031935_i386.deb"
+link3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.17-utopic/linux-image-3.17.0-031700-generic_3.17.0-031700.201410051635_i386.deb"
 
 #amd64 links
 
-url1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.16-utopic/linux-headers-3.16.0-031600-generic_3.16.0-031600.201408031935_amd64.deb"
+url1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.17-utopic/linux-headers-3.17.0-031700-generic_3.17.0-031700.201410051635_amd64.deb"
 
-url2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.16-utopic/linux-image-3.16.0-031600-generic_3.16.0-031600.201408031935_amd64.deb"
+url2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v3.17-utopic/linux-image-3.17.0-031700-generic_3.17.0-031700.201410051635_amd64.deb"
 
 
 #System architecture
