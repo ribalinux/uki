@@ -6,7 +6,7 @@
 echo "-----------------------------------------------------------------------"
 echo "------------ Script edited and tested by Marcelo Salvador ------------ "
 echo "http://ribalinux.blogspot.pt/ https://www.youtube.com/user/TheRibalinux"
-echo "$(tput setaf 3)--- Kernel 4.5 will be installed in an `uname -i` system    ---$(tput sgr0)"
+echo "$(tput setaf 3)--- Kernel 4.6 will be installed in an `uname -i` system    ---$(tput sgr0)"
 echo "-----------------------------------------------------------------------"
 
 echo ""
@@ -20,17 +20,17 @@ echo ""
 
 #i386 links
 
-link1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.5-wily/linux-headers-4.5.0-040500_4.5.0-040500.201603140130_all.deb"
+link1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6-yakkety/linux-headers-4.6.0-040600_4.6.0-040600.201605151930_all.deb"
 
-link2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.5-wily/linux-headers-4.5.0-040500-generic_4.5.0-040500.201603140130_i386.deb"
+link2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6-yakkety/linux-headers-4.6.0-040600-generic_4.6.0-040600.201605151930_i386.deb"
 
-link3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.5-wily/linux-image-4.5.0-040500-generic_4.5.0-040500.201603140130_i386.deb"
+link3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6-yakkety/linux-image-4.6.0-040600-generic_4.6.0-040600.201605151930_i386.deb"
 
 #amd64 links
 
-url1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.5-wily/linux-headers-4.5.0-040500-generic_4.5.0-040500.201603140130_amd64.deb"
+url1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6-yakkety/linux-headers-4.6.0-040600-generic_4.6.0-040600.201605151930_amd64.deb"
 
-url2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.5-wily/linux-image-4.5.0-040500-generic_4.5.0-040500.201603140130_amd64.deb"
+url2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6-yakkety/linux-image-4.6.0-040600-generic_4.6.0-040600.201605151930_amd64.deb"
 
 
 #System architecture
