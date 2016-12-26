@@ -6,7 +6,7 @@
 echo "-----------------------------------------------------------------------"
 echo "------------ Script edited and tested by Marcelo Salvador ------------ "
 echo "http://ribalinux.blogspot.pt/ https://www.youtube.com/user/TheRibalinux"
-echo "$(tput setaf 3)--- Kernel 4.8.8 will be installed in an `uname -i` system    ---$(tput sgr0)"
+echo "$(tput setaf 3)--- Kernel 4.9 will be installed in an `uname -i` system    ---$(tput sgr0)"
 echo "-----------------------------------------------------------------------"
 
 echo ""
@@ -20,17 +20,17 @@ echo ""
 
 #i386 links
 
-link1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.8.8/linux-headers-4.8.8-040808_4.8.8-040808.201611150231_all.deb"
+link1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.9/linux-headers-4.9.0-040900_4.9.0-040900.201612111631_all.deb"
 
-link2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.8.8/linux-headers-4.8.8-040808-generic_4.8.8-040808.201611150231_i386.deb"
+link2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.9/linux-headers-4.9.0-040900-generic_4.9.0-040900.201612111631_i386.deb"
 
-link3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.8.8/linux-image-4.8.8-040808-generic_4.8.8-040808.201611150231_i386.deb"
+link3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.9/linux-image-4.9.0-040900-lowlatency_4.9.0-040900.201612111631_i386.deb"
 
 #amd64 links
 
-url1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.8.8/linux-headers-4.8.8-040808-generic_4.8.8-040808.201611150231_amd64.deb"
+url1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.9/linux-headers-4.9.0-040900-generic_4.9.0-040900.201612111631_amd64.deb"
 
-url2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.8.8/linux-image-4.8.8-040808-generic_4.8.8-040808.201611150231_amd64.deb"
+url2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.9/linux-image-4.9.0-040900-generic_4.9.0-040900.201612111631_amd64.deb"
 
 
 #System architecture
