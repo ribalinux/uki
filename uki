@@ -6,7 +6,7 @@
 echo "-----------------------------------------------------------------------"
 echo "------------ Script edited and tested by Marcelo Salvador ------------ "
 echo "http://ribalinux.blogspot.pt/ https://www.youtube.com/user/TheRibalinux"
-echo "$(tput setaf 3)--- Kernel 4.11 will be installed in an `uname -i` system    ---$(tput sgr0)"
+echo "$(tput setaf 3)--- Kernel 4.11.1 will be installed in an `uname -i` system    ---$(tput sgr0)"
 echo "-----------------------------------------------------------------------"
 
 echo ""
@@ -20,17 +20,17 @@ echo ""
 
 #i386 links
 
-link1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.11/linux-headers-4.11.0-041100_4.11.0-041100.201705041534_all.deb"
+link1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.11.1/linux-headers-4.11.1-041101_4.11.1-041101.201705140931_all.deb"
 
-link2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.11/linux-headers-4.11.0-041100-generic_4.11.0-041100.201705041534_i386.deb"
+link2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.11.1/linux-headers-4.11.1-041101-generic_4.11.1-041101.201705140931_i386.deb"
 
-link3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.11/linux-image-4.11.0-041100-generic_4.11.0-041100.201705041534_i386.deb"
+link3="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.11.1/linux-image-4.11.1-041101-generic_4.11.1-041101.201705140931_i386.deb"
 
 #amd64 links
 
-url1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.11/linux-headers-4.11.0-041100-generic_4.11.0-041100.201705041534_amd64.deb"
+url1="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.11.1/linux-headers-4.11.1-041101-generic_4.11.1-041101.201705140931_amd64.deb"
 
-url2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.11/linux-image-4.11.0-041100-generic_4.11.0-041100.201705041534_amd64.deb"
+url2="http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.11.1/linux-image-4.11.1-041101-generic_4.11.1-041101.201705140931_amd64.deb"
 
 
 #System architecture
